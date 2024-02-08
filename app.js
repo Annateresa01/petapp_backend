@@ -4,4 +4,7 @@ const mongoose=require("mongoose")
 
 const app=express()
 
-const
+app.use(express.json())
+app.use(cors())
+
+app.listen(3001)
